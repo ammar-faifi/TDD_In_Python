@@ -31,7 +31,7 @@ class CalculatorTestCase(TestCase):
         # self.assertIsNotNone(add(self.a, self.b), "add must not return None")
         # self.assertEqual(add(self.a, self.b), 12)
 
-        assert add(self.a, self.b) is not None #, "add must not return None"
+        assert add(self.a, self.b) is not None #, "`add` must not return None"
         assert add(self.a, self.b) == 12
 
     def test_sub(self) -> None:
@@ -48,6 +48,8 @@ class CalculatorTestCase(TestCase):
         """Test `div` method"""
 
         assert div(self.a, self.b) == 5
+
+        # TODO catch division by zero
 
 
     def general_method(self):

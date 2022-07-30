@@ -6,7 +6,7 @@ later with `uittest` module for testing.
 def add(num1, num2):
     """Adds `num1` and `num2`"""
 
-    # raise Exception("Erorr in `add`")
+    # int("1.5")
     # return None
     return num1 + num2
 

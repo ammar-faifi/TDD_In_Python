@@ -49,7 +49,6 @@ class CalculatorTestCase(TestCase):
 
         assert div(self.a, self.b) == 5
 
-        div(1, 0)
 
     def general_method(self):
         """Not-a-test method"""

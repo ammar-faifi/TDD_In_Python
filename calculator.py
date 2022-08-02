@@ -21,6 +21,6 @@ def mul(num1, num2):
     return num1 * num2
 
 def div(num1, num2):
-    """Divides `num1` on `num2`"""
+    """Divides `num1` by `num2`"""
 
     return num1 / num2

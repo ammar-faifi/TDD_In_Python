@@ -25,7 +25,7 @@ class CalculatorTestCase(TestCase):
 
     # All tests
 
-    def test_add(self):
+    def test_add(self) -> None:
         """Test `add` method"""
 
         # self.assertIsNotNone(add(self.a, self.b), "add must not return None")
@@ -52,7 +52,7 @@ class CalculatorTestCase(TestCase):
         # TODO catch division by zero
 
 
-    def general_method(self):
+    def general_method(self) -> None:
         """Not-a-test method"""
 
         print("This method is not a test")
